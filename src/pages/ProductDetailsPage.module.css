@@ -1,0 +1,74 @@
+.productContainer {
+  border: 1px solid #e4e4e4;
+  width: 470px;
+  min-height: 523px;
+  margin: 0;
+  padding: 35px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+}
+
+.productContainer ul {
+  list-style: none;
+}
+
+.productContainer ul li {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+.productContainer ul li label {
+  color: #282828;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21.88px;
+  text-align: right;
+  margin-bottom: 6px;
+}
+
+.productContainer ul li input {
+  height: 53px;
+  padding: 0 15px;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.productContainer .actions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.productContainer .actions button {
+  width: 35px;
+  height: 35px;
+  background: none;
+}
+
+.saveBtn svg {
+  stroke: #4ade80;
+  width: 20px;
+  height: 20px;
+}
+
+.productContainer .backBtn {
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(40, 40, 40, 0.5) !important;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(40, 40, 40, 0.5);
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}

@@ -1,0 +1,26 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 50px auto 0;
+}
+
+.pagination span {
+  width: 50px;
+  text-align: center;
+  color: #282828;
+}
+
+.pagination button {
+  outline: none;
+  border: none;
+  background: none;
+  color: #282828;
+  font-size: 20px;
+}
+
+.pagination button:disabled {
+  color: rgba(40, 40, 40, 0.5);
+}

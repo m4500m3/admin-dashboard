@@ -1,0 +1,129 @@
+.list {
+  border: 1px solid #e4e4e4;
+  border-radius: 30px;
+  width: 1140px;
+  /* height: 737px; */
+  height: 637px;
+
+  box-sizing: border-box;
+}
+
+.list ul {
+  display: flex;
+  width: 100%;
+  direction: rtl;
+  list-style: none;
+  padding: 0 10px;
+  align-items: center;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.list ul li {
+  list-style: none;
+  color: #282828;
+}
+
+.listHeader {
+  height: 70px;
+  background-color: #f2f2f2;
+  border-radius: 30px 30px 0 0;
+}
+
+.listHeader li {
+  font-weight: 500;
+}
+
+.listBody {
+  height: 50px;
+}
+
+.listHeader li,
+.listBody li {
+  width: 178px;
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listHeader li:first-child,
+.listBody li:first-child {
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listHeader li:nth-child(5),
+.listBody li:nth-child(5) {
+  width: 350px;
+}
+
+.listHeader ul li:last-child,
+.listBody li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listBody li button {
+  background: none;
+  margin: 0 7px;
+}
+
+.listBody li p {
+  margin: 0;
+}
+
+.listBody li a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.listBody li a:focus {
+  color: #282828;
+}
+
+.listBody input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.listBody label {
+  position: relative;
+  cursor: pointer;
+}
+
+.listBody label:before {
+  content: "";
+  background-color: transparent;
+  border: 1px solid #55a3f0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.listBody input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #0079bf;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

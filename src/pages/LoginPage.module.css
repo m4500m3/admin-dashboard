@@ -1,0 +1,85 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formWrapper form {
+  border: 1px solid #e4e4e4;
+  width: 470px;
+  min-height: 523px;
+  margin: 0;
+  padding: 35px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signupForm {
+  min-height: 596px !important;
+}
+
+.formWrapper form h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: right;
+  margin: 16px 0 0 0;
+}
+
+.formWrapper form ul {
+  margin: 63px 0 0 0;
+  padding: 0;
+}
+
+.formWrapper form ul li {
+  margin: 8px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.formWrapper form ul li input,
+.formWrapper form button {
+  width: 100%;
+  border-radius: 15px;
+  height: 53px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.formWrapper form ul li input {
+  background-color: #f2f2f2;
+  color: rgba(40, 40, 40, 0.5);
+}
+
+.formWrapper form button {
+  background-color: #55a3f0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31.25px;
+  text-align: center;
+  margin: 27px 0 0;
+}
+
+.formWrapper form a {
+  color: #55a3f0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: right;
+  width: 100%;
+  margin: 16px 0 0 0;
+  text-decoration: none;
+}
+
+.formError {
+  color: red;
+  margin: 0;
+  width: 100%;
+  text-align: right;
+}

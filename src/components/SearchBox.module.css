@@ -1,0 +1,16 @@
+.searchBox {
+  display: flex;
+  align-items: center;
+}
+
+.searchBox img {
+  margin: 0 0 0 10px;
+}
+
+.searchBox input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
